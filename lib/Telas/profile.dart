@@ -26,7 +26,7 @@ class ProfileScreen extends StatelessWidget {
               },
               child:
                   Text('Editar Perfil', style: TextStyle(color: Colors.white)),
-              style: ElevatedButton.styleFrom(primary: Colors.blue),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
             ),
           ],
         ),

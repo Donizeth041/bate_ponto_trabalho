@@ -30,7 +30,8 @@ class _PontoScreenState extends State<PontoScreen> {
                     },
                     child: Text('Fechar Ponto',
                         style: TextStyle(color: Colors.white)),
-                    style: ElevatedButton.styleFrom(primary: Colors.red),
+                    style:
+                        ElevatedButton.styleFrom(backgroundColor: Colors.red),
                   )
                 : ElevatedButton(
                     onPressed: () {
@@ -41,7 +42,8 @@ class _PontoScreenState extends State<PontoScreen> {
                     },
                     child: Text('Abrir Ponto',
                         style: TextStyle(color: Colors.white)),
-                    style: ElevatedButton.styleFrom(primary: Colors.green),
+                    style:
+                        ElevatedButton.styleFrom(backgroundColor: Colors.green),
                   ),
           ],
         ),

@@ -52,7 +52,7 @@ class RegisterScreen extends StatelessWidget {
                 // Ação de cadastro
               },
               child: Text('Cadastrar', style: TextStyle(color: Colors.white)),
-              style: ElevatedButton.styleFrom(primary: Colors.blue),
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
             ),
           ],
         ),
