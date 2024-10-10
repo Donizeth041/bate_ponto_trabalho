@@ -9,6 +9,12 @@ class HistoricoScreen extends StatelessWidget {
         title:
             Text('Histórico de Pontos', style: TextStyle(color: Colors.black)),
         backgroundColor: Colors.blue,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back, color: Colors.black),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
       body: ListView(
         children: [

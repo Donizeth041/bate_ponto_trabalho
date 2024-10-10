@@ -8,6 +8,12 @@ class PesquisaScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Pesquisar Pontos', style: TextStyle(color: Colors.black)),
         backgroundColor: Colors.blue,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back, color: Colors.black),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
       body: Column(
         children: [

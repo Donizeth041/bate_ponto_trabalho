@@ -15,6 +15,12 @@ class _PontoScreenState extends State<PontoScreen> {
       appBar: AppBar(
         title: Text('Bater Ponto', style: TextStyle(color: Colors.black)),
         backgroundColor: Colors.blue,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back, color: Colors.black),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
       body: Center(
         child: Column(

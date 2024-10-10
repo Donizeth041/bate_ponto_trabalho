@@ -8,6 +8,12 @@ class ProfileScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Perfil do Usuário', style: TextStyle(color: Colors.black)),
         backgroundColor: Colors.blue,
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back, color: Colors.black),
+          onPressed: () {
+            Navigator.pop(context);
+          },
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
