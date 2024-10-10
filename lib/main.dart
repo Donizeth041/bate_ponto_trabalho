@@ -28,7 +28,7 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Tela Principal'),
+        title: Text('Home'),
         backgroundColor: Colors.blue,
       ),
       drawer: Drawer(
