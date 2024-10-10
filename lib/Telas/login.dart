@@ -30,7 +30,7 @@ class LoginScreen extends StatelessWidget {
                 // Ação de login
               },
               child: Text('Login', style: TextStyle(color: Colors.white)),
-              style: ElevatedButton.styleFrom(backgroundColor: Colors.blue),
+              style: ElevatedButton.styleFrom(primary: Colors.blue),
             ),
           ],
         ),

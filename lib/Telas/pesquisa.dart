@@ -27,12 +27,16 @@ class PesquisaScreen extends StatelessWidget {
             child: ListView(
               children: [
                 ListTile(
-                  title: Text('Nome: João Silva', style: TextStyle(color: Colors.black)),
-                  subtitle: Text('Último Ponto: 2024-10-01 17:00', style: TextStyle(color: Colors.black)),
+                  title: Text('Nome: João Silva',
+                      style: TextStyle(color: Colors.black)),
+                  subtitle: Text('Último Ponto: 2024-10-01 17:00',
+                      style: TextStyle(color: Colors.black)),
                 ),
                 ListTile(
-                  title: Text('Nome: Maria Souza', style: TextStyle(color: Colors.black)),
-                  subtitle: Text('Último Ponto: 2024-10-02 16:45', style: TextStyle(color: Colors.black)),
+                  title: Text('Nome: Maria Souza',
+                      style: TextStyle(color: Colors.black)),
+                  subtitle: Text('Último Ponto: 2024-10-02 16:45',
+                      style: TextStyle(color: Colors.black)),
                 ),
                 // Adicione mais funcionários aqui
               ],
